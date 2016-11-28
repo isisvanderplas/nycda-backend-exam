@@ -88,20 +88,15 @@ Given that we have a "customer" resource/model in our web server,
 
 
 4 - What is a foreign key? Given that you have a Factory that has many cars and car that belongs to a factory, What would be your foreign key column?
-  this example really confuses me, but a foreign key is when data references data in another table. example:
 
-  table 1:
-  id = 1; username = ivdp emailadress = ivdp@mail.com
-  id = 2; username = bvda emailadress = bvda@mail.com
+  table cars:
+    id = 1;  
 
-  table 2
-  id = 1; idInTable1 = 2; username = bvda; emailadress = bvda@mail.com
+  table Factory:
 
 5 - List all the model lifecycle hooks you have learned from sequelize and explain them briefly if necessary.
 
-  create: creates a table.
-  update: updates data in the table
-  destroy: deletes data/ table
+
 
 6 - What is the difference between database-level validations and application-level validations?
 
@@ -120,3 +115,31 @@ Given that we have a "customer" resource/model in our web server,
 10 - What are the 3 reasons that makes Gulp a good choice as an asset build library?
 
   well, I have no frame of reference, but it can organize you files, minify them, uglify, obfuscate, de-obfuscate, watch, so you don't have to restart all the time, so you have a lot of options, I understood it's good for front-end organisation.
+
+
+
+  NYCDA Backend Exam - Part 3
+
+1 - What is the difference between git pull and git merge?
+  when you pull you copy the master to your branch, when you merge you join the branches together
+
+2 - Why do we use a pull request on github instead of merging our branch directly to master and then pushing it to  github?
+  
+
+3 - Why do we use database migrations?
+
+
+4 - What is the difference between up and down functions of sequelize migration files?
+
+5 - Name 3 reasons why Sass/SCSS is better than CSS?
+  you can use variables.
+  you can make your own reusable color scheme
+
+
+
+6 - What is the right way to include bootstrap to your project?
+  at the top, in the head
+
+7 - Why ____variables.scss file is important?
+
+8 - Lets say you want to change the alert component of bootstrap, what are steps/strategy would you use to make that change?
